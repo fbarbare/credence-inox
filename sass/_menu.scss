@@ -1,0 +1,23 @@
+.menu-container {
+    padding-bottom: 20px;
+    height: 50px;
+    background-color: $primary-color;
+
+    .menu {
+        margin: 0;
+        border: 0;
+        width: 100%;
+        background-color: $primary-color;
+        @include box-shadow(1px 1px 3px 0 rgba(9,11,24,0.2));
+        @include border-radius(0);
+    }
+
+    &.stick {
+        .menu {
+            position: fixed;
+            top: 0;
+            z-index: 10;
+        }
+    }
+}
+

@@ -1,0 +1,30 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc", "closure"]
+    },
+    "source": {
+        "include": ["JS"],
+        "exclude": [
+            "JS/GenieCustomJS/Utils.js",
+            "JS/Iframe/Assist/Footer.js",
+            "JS/Iframe/Assist/Header.js",
+            "JS/Iframe/Chat/Footer.js",
+            "JS/Iframe/Chat/Header.js",
+            "JS/Main/SharedFooter.js",
+            "JS/Main/SharedHeader.js",
+            "JS/Main/RunOnLoadHeader.js",
+            "JS/Main/AppState/Settings/SettingsManagerFooter.js",
+            "JS/Main/AppState/Settings/SettingsManagerHeader.js",
+            "JS/Iframe/Storage/SharedStorage.js",
+            "JS/Iframe/Storage/StorageCommunicator.js",
+            "JS/Iframe/Promote/Footer.js",
+            "JS/Iframe/Promote/Header.js"
+        ]
+    },
+    "opts": {
+        "recurse": true,
+        "destination": "Documentation",
+        "encoding": "utf8"
+    }
+}

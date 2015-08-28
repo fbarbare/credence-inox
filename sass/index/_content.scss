@@ -1,0 +1,8 @@
+.content-container {
+    padding: 50px 0 100px;
+    background-color: $primary-color;
+
+    &:nth-child(even) {
+        background-color: $secondary-color;
+    }
+}
