@@ -77,10 +77,41 @@ html, body {
 
 /* line 1, ../sass/index/_content.scss */
 .content-container {
-  padding: 50px 0 100px;
+  padding: 100px 0 150px;
   background-color: #FFF;
 }
 /* line 5, ../sass/index/_content.scss */
 .content-container:nth-child(even) {
   background-color: #F6F6F6;
+}
+/* line 9, ../sass/index/_content.scss */
+.content-container .content-table {
+  display: table;
+}
+/* line 12, ../sass/index/_content.scss */
+.content-container .content-row {
+  display: table-row;
+}
+/* line 15, ../sass/index/_content.scss */
+.content-container .content-cell {
+  display: table-cell;
+}
+/* line 18, ../sass/index/_content.scss */
+.content-container .content-image-container {
+  width: 40%;
+  vertical-align: middle;
+}
+/* line 22, ../sass/index/_content.scss */
+.content-container .content-image {
+  display: block;
+  max-width: 100%;
+}
+/* line 27, ../sass/index/_content.scss */
+.content-container .content-description {
+  width: 60%;
+  vertical-align: top;
+}
+/* line 31, ../sass/index/_content.scss */
+.content-container .content-text {
+  width: 100%;
 }

@@ -1,8 +1,34 @@
 .content-container {
-    padding: 50px 0 100px;
+    padding: 100px 0 150px;
     background-color: $primary-color;
 
     &:nth-child(even) {
         background-color: $secondary-color;
+    }
+
+    .content-table {
+        display: table;
+    }
+    .content-row {
+        display: table-row;
+    }
+    .content-cell {
+        display: table-cell;
+    }
+    .content-image-container {
+        width: 40%;
+        vertical-align: middle;
+    }
+    .content-image {
+        display: block;
+        max-width: 100%;
+    }
+
+    .content-description {
+        width: 60%;
+        vertical-align: top;
+    }
+    .content-text {
+        width: 100%;
     }
 }
