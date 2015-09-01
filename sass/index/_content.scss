@@ -1,34 +1,49 @@
-.content-container {
+.section-container {
     padding: 100px 0 150px;
-    background-color: $primary-color;
+    border-top: 1px solid $third-light-color;
 
     &:nth-child(even) {
-        background-color: $secondary-color;
+        background-color: $secondary-light-color;
     }
 
-    .content-table {
-        display: table;
-    }
-    .content-row {
-        display: table-row;
-    }
-    .content-cell {
-        display: table-cell;
-    }
-    .content-image-container {
-        width: 40%;
-        vertical-align: middle;
-    }
-    .content-image {
-        display: block;
-        max-width: 100%;
+    .logo {
+        text-align: center;
+
+        .icon {
+            font-size: 220px;
+        }
     }
 
-    .content-description {
-        width: 60%;
-        vertical-align: top;
+    &.warranty {
+        .logo .icon {
+            color: #f7931d;
+        }
+        .btn {
+            background-color: #f7931d;
+        }
     }
-    .content-text {
-        width: 100%;
+    &.safety {
+        .logo .icon {
+            color: #75a541;
+        }
+        .btn {
+            background-color: #75a541;
+        }
+    }
+    &.quality {
+        .logo .icon {
+            color: #24A5DB;
+        }
+        .btn {
+            background-color: #24A5DB;
+        }
+    }
+    &.smart {
+        .logo .icon {
+            color: #FFBB03;
+        }
+        .btn {
+            background-color: #FFBB03;
+        }
     }
 }

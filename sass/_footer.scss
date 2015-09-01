@@ -1,0 +1,65 @@
+.footer {
+    border-top: 1px solid #666666;
+    padding: 50px 0;
+    color: $primary-light-color;
+    background-color: $primary-dark-color;
+
+    a {
+        color: $primary-light-color !important;
+        &:hover {
+            color: $third-light-color !important;
+        }
+    }
+    .btn, input, textarea {
+        color: $primary-dark-color;
+        background-color: $primary-light-color;
+    }
+    .btn:hover {
+        color: $secondary-dark-color;
+    }
+
+    .social-network {
+        text-align: center;
+        padding-bottom: 40px;
+
+        .icon {
+            margin: 0 30px;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+        .facebook:hover {
+            color: #6b7fb2 !important;
+        }
+        .twitter:hover {
+            color: #55acee !important;
+        }
+        .google-plus:hover {
+            color: #dd4b39 !important;
+        }
+    }
+
+    .contact {
+        padding-bottom: 40px;
+
+        .details {
+            @media (min-width: 992px) {
+                padding-right: 50px;
+                text-align: right;
+            }
+
+            .icon {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 11px;
+
+        a {
+            margin: 0 10px;
+        }
+    }
+}

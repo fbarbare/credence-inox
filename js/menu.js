@@ -21,6 +21,7 @@
 
     Menu.prototype.init = function () {
         eventsUtils.addEvent(win, 'scroll', this);
+        this.handleEvent();
     };
 
     module.exports = Menu;

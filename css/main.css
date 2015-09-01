@@ -1,12 +1,39 @@
-/* line 4, ../sass/main.scss */
+/* line 1, ../sass/_shared.scss */
+.btn {
+  border-radius: 2px;
+  width: 100%;
+  border: 0;
+  background: #66625b;
+  color: #fcfcfc;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+/* line 11, ../sass/_shared.scss */
+.btn:hover {
+  color: #EEEEEE;
+}
+
+/* line 6, ../sass/main.scss */
 html, body {
   width: 100%;
   height: 100%;
+  color: #66625b;
 }
 
-/* line 8, ../sass/main.scss */
-.content-container {
-  background-color: #FFF;
+/* line 11, ../sass/main.scss */
+a {
+  color: #66625b !important;
+}
+/* line 13, ../sass/main.scss */
+a:hover {
+  color: #3F3F3F !important;
+}
+
+/* line 18, ../sass/main.scss */
+.content {
+  background-color: #fcfcfc;
 }
 
 /* line 3, ../sass/index/_header.scss */
@@ -42,76 +69,158 @@ html, body {
 }
 /* line 28, ../sass/index/_header.scss */
 .header .header-title {
-  color: #FFF;
+  color: #fcfcfc;
 }
 /* line 31, ../sass/index/_header.scss */
 .header .header-subtitle {
-  color: #F6F6F6;
+  color: #EEEEEE;
 }
 
 /* line 1, ../sass/_menu.scss */
 .menu-container {
   padding-bottom: 20px;
   height: 50px;
-  background-color: #FFF;
+  background-color: #fcfcfc;
 }
 /* line 6, ../sass/_menu.scss */
 .menu-container .menu {
+  position: relative;
   margin: 0;
   border: 0;
   width: 100%;
-  background-color: #FFF;
+  background-color: #fcfcfc;
   -moz-box-shadow: 1px 1px 3px 0 rgba(9, 11, 24, 0.2);
   -webkit-box-shadow: 1px 1px 3px 0 rgba(9, 11, 24, 0.2);
   box-shadow: 1px 1px 3px 0 rgba(9, 11, 24, 0.2);
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
+  z-index: 10;
 }
-/* line 16, ../sass/_menu.scss */
+/* line 18, ../sass/_menu.scss */
 .menu-container.stick .menu {
   position: fixed;
   top: 0;
-  z-index: 10;
 }
 
 /* line 1, ../sass/index/_content.scss */
-.content-container {
+.section-container {
   padding: 100px 0 150px;
-  background-color: #FFF;
+  border-top: 1px solid #EEEEEE;
 }
 /* line 5, ../sass/index/_content.scss */
-.content-container:nth-child(even) {
-  background-color: #F6F6F6;
+.section-container:nth-child(even) {
+  background-color: #f9f9f9;
 }
 /* line 9, ../sass/index/_content.scss */
-.content-container .content-table {
-  display: table;
+.section-container .logo {
+  text-align: center;
 }
 /* line 12, ../sass/index/_content.scss */
-.content-container .content-row {
-  display: table-row;
-}
-/* line 15, ../sass/index/_content.scss */
-.content-container .content-cell {
-  display: table-cell;
+.section-container .logo .icon {
+  font-size: 220px;
 }
 /* line 18, ../sass/index/_content.scss */
-.content-container .content-image-container {
-  width: 40%;
-  vertical-align: middle;
+.section-container.warranty .logo .icon {
+  color: #f7931d;
 }
-/* line 22, ../sass/index/_content.scss */
-.content-container .content-image {
-  display: block;
-  max-width: 100%;
+/* line 21, ../sass/index/_content.scss */
+.section-container.warranty .btn {
+  background-color: #f7931d;
 }
-/* line 27, ../sass/index/_content.scss */
-.content-container .content-description {
-  width: 60%;
-  vertical-align: top;
+/* line 26, ../sass/index/_content.scss */
+.section-container.safety .logo .icon {
+  color: #75a541;
 }
-/* line 31, ../sass/index/_content.scss */
-.content-container .content-text {
-  width: 100%;
+/* line 29, ../sass/index/_content.scss */
+.section-container.safety .btn {
+  background-color: #75a541;
+}
+/* line 34, ../sass/index/_content.scss */
+.section-container.quality .logo .icon {
+  color: #24A5DB;
+}
+/* line 37, ../sass/index/_content.scss */
+.section-container.quality .btn {
+  background-color: #24A5DB;
+}
+/* line 42, ../sass/index/_content.scss */
+.section-container.smart .logo .icon {
+  color: #FFBB03;
+}
+/* line 45, ../sass/index/_content.scss */
+.section-container.smart .btn {
+  background-color: #FFBB03;
+}
+
+/* line 1, ../sass/_footer.scss */
+.footer {
+  border-top: 1px solid #666666;
+  padding: 50px 0;
+  color: #fcfcfc;
+  background-color: #66625b;
+}
+/* line 7, ../sass/_footer.scss */
+.footer a {
+  color: #fcfcfc !important;
+}
+/* line 9, ../sass/_footer.scss */
+.footer a:hover {
+  color: #EEEEEE !important;
+}
+/* line 13, ../sass/_footer.scss */
+.footer .btn, .footer input, .footer textarea {
+  color: #66625b;
+  background-color: #fcfcfc;
+}
+/* line 17, ../sass/_footer.scss */
+.footer .btn:hover {
+  color: #3F3F3F;
+}
+/* line 21, ../sass/_footer.scss */
+.footer .social-network {
+  text-align: center;
+  padding-bottom: 40px;
+}
+/* line 25, ../sass/_footer.scss */
+.footer .social-network .icon {
+  margin: 0 30px;
+  font-size: 30px;
+  text-decoration: none;
+}
+/* line 31, ../sass/_footer.scss */
+.footer .social-network .facebook:hover {
+  color: #6b7fb2 !important;
+}
+/* line 34, ../sass/_footer.scss */
+.footer .social-network .twitter:hover {
+  color: #55acee !important;
+}
+/* line 37, ../sass/_footer.scss */
+.footer .social-network .google-plus:hover {
+  color: #dd4b39 !important;
+}
+/* line 42, ../sass/_footer.scss */
+.footer .contact {
+  padding-bottom: 40px;
+}
+@media (min-width: 992px) {
+  /* line 45, ../sass/_footer.scss */
+  .footer .contact .details {
+    padding-right: 50px;
+    text-align: right;
+  }
+}
+/* line 51, ../sass/_footer.scss */
+.footer .contact .details .icon {
+  margin-right: 5px;
+}
+/* line 57, ../sass/_footer.scss */
+.footer .copyright {
+  text-align: center;
+  font-size: 11px;
+}
+/* line 61, ../sass/_footer.scss */
+.footer .copyright a {
+  margin: 0 10px;
 }

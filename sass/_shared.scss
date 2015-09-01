@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 2px;
+    width: 100%;
+    border: 0;
+    background: $primary-dark-color;
+    color: $primary-light-color;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0;
+}
+.btn:hover {
+    color: $third-light-color;
+}
