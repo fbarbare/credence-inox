@@ -11,29 +11,20 @@
   <div class="container-fluid section-container">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <div style="width: 100%;">
-            <div style="margin-top: 100%;"></div>
-          </div>
-          <div><div>Crédences en inox</div><div>Voir plus de produits</div></div>
-        </div>
-        <div class="col-md-3">
-          <div style="width: 100%;">
-            <div style="margin-top: 100%;"></div>
-          </div>
-          <div><div>Crédences en inox</div><div>Voir plus de produits</div></div>
-        </div>
-        <div class="col-md-3">
-          <div style="width: 100%;">
-            <div style="margin-top: 100%;"></div>
-          </div>
-          <div><div>Crédences en inox</div><div>Voir plus de produits</div></div>
-        </div>
-        <div class="col-md-3">
-          <div style="width: 100%;">
-            <div style="margin-top: 100%;"></div>
-          </div>
-          <div><div>Crédences en inox</div><div>Voir plus de produits</div></div>
+        <div class="col-md-3" style="
+                position: relative;
+                height: 300px;
+                background-image: url('http://lorempixel.com/400/200/');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                ">
+          <a class="btn btn-after-arrow" href="/" style="
+                position: relative;
+                top: 250px;
+                ">
+            Crédences en inox
+          </a>
         </div>
       </div>
     </div>

@@ -8,6 +8,10 @@
     font-weight: bold;
     padding: 8px 0;
 }
+.btn-after-arrow:after {
+    color: red;
+    content: '>';
+}
 .btn:hover {
     color: $third-light-color;
 }

@@ -11,6 +11,12 @@
 }
 
 /* line 11, ../sass/_shared.scss */
+.btn-after-arrow:after {
+  color: red;
+  content: '>';
+}
+
+/* line 15, ../sass/_shared.scss */
 .btn:hover {
   color: #EEEEEE;
 }
